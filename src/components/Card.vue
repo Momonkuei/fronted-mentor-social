@@ -8,7 +8,9 @@
     </div>
 
     <div class="text-center">
-      <h1 class="font-inter text-2xl leading-normal text-white font-bold">{{ data.name }}</h1>
+      <h1 class="font-inter text-2xl leading-normal text-white font-bold mb-[4px]">
+        {{ data.name }}
+      </h1>
       <div class="font-inter leading-normal text-sm text-design-green font-bold">
         {{ data.city }}
       </div>
