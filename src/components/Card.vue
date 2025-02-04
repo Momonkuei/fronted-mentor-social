@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:p-[2.5rem] p-[1.5rem] bg-design-grey-800 w-[327px] md:w-[28.5rem] lg:w-[24rem] md:h-[611px] h-[579px] flex flex-col gap-[1.5rem] rounded-xl"
+    class="md:p-[2.5rem] p-[1.5rem] bg-design-grey-800 w-[327px] md:w-[28.5rem] lg:w-[24rem] md:h-[611px] h-[579px] flex flex-col gap-[1.5rem] rounded-xl"
     role="card"
   >
     <div class="flex justify-center items-center">
@@ -25,7 +25,7 @@
         v-for="list in data.links"
         :href="list.link"
         :key="list.name"
-        class="no-underline py-[0.75rem] bg-design-grey-700 text-white flex justify-center items-center hover:bg-design-green hover:text-gray-700 font-bold"
+        class="no-underline py-[0.75rem] bg-design-grey-700 text-sm leading-normal text-white flex justify-center items-center hover:bg-design-green hover:text-gray-700 font-bold"
         >{{ list.name }}</a
       >
     </div>
