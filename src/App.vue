@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900 h-screen w-screen flex justify-center items-center">
+  <div class="bg-design-grey-900 h-screen w-screen flex justify-center items-center">
     <card :data="data"></card>
   </div>
 </template>
